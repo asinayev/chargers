@@ -35,6 +35,7 @@ To run the script, you currently have to have R installed with the packages data
 7. run the script: `Rscript optimization.R`
 
 Here is an example solution from the algorithm:
+```
 	  V1	V2	V3	V4	V5	V6	V7	V8	V9	V10	V11	V12
 1	  1	0	1	0	0	0	0	0	0	0	0	0
 2	  1	0	1	0	0	0	0	0	0	0	0	0
@@ -66,5 +67,5 @@ Here is an example solution from the algorithm:
 28	0	1	1	0	0	0	0	0	0	0	0	0
 29	0	1	1	0	0	0	0	0	0	0	0	0
 30	0	1	1	0	0	0	0	0	0	0	0	0
-
+```
 In this solution cars for fleet 1 are charged when they arrive early on, until the second wave of cars in fleet 3 shows up. At that point, those cars are prioritized and the cars from fleet 1 finish charging a bit later.
