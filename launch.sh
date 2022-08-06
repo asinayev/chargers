@@ -1,0 +1,1 @@
+Rscript /home/repos/stonksanalysis/implement/get_data.R $chargers $MW
