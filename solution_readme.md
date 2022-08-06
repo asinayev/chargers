@@ -23,3 +23,13 @@ Subject to the following constraints:
   c. Capacity of 77.4 kWh means charge for 30m (2 15m time intervals) is sufficient to charge from 5% fully
 
 The solution is a 30x12 matrix of 1s and 0s that shows which cars will be charged during which interval (assuming the task can be accomplished in 3h. For the solver, this is a 30*12 length vector (first 30 values correspond to the first car, next 30 to the second etc.)
+
+To run the script, you currently have to have R installed with the packages data.table and lpSolve installed.
+
+1. Install R:
+`sudo apt-get install r-base`
+2. Open R: `R`
+4. install data.table `install.packages('data.table')`
+5. install lpSolve `install.packages('lpSolve')`
+6. `quit()`
+7. run the script: `Rscript optimization.R`
