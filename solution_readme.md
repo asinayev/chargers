@@ -68,4 +68,5 @@ Here is an example solution from the algorithm:
 29	0	1	1	0	0	0	0	0	0	0	0	0
 30	0	1	1	0	0	0	0	0	0	0	0	0
 ```
-In this solution cars for fleet 1 are charged when they arrive early on, until the second wave of cars in fleet 3 shows up. At that point, those cars are prioritized and the cars from fleet 1 finish charging a bit later.
+Each row corresponds to a car, and each entry indicates to what extent a car should be charged in that period. For example, reading the first row, Car 1 should be charged in the first 15 minute interval (called Var 1) and in the third 15 minute interval (called Var 1), but not the second one.
+Generally, in this solution cars for fleet 1 are charged when they arrive early on, until the second wave of cars in fleet 3 shows up. At that point, those cars are prioritized and the cars from fleet 1 finish charging a bit later.
